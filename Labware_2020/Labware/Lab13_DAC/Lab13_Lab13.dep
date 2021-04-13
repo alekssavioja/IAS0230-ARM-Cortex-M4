@@ -1,0 +1,19 @@
+Dependencies for Project 'Lab13', Target 'Lab13': (DO NOT MODIFY !)
+F (.\startup.s)(0x5F59126E)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Lab13.c)(0x5FC8FC8C)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\lab13.o --omf_browse .\lab13.crf --depend .\lab13.d)
+I (..//tm4c123gh6pm.h)(0x5F59125E)
+I (Sound.h)(0x5FC4E1E6)
+I (Piano.h)(0x5FC72F29)
+I (TExaS.h)(0x5F59126E)
+F (.\Sound.c)(0x5FC8FC2E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (Sound.h)(0x5FC4E1E6)
+I (DAC.h)(0x5F59126C)
+I (Piano.h)(0x5FC72F29)
+I (..//tm4c123gh6pm.h)(0x5F59125E)
+F (.\DAC.c)(0x5FC8DF36)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (DAC.h)(0x5F59126C)
+I (..//tm4c123gh6pm.h)(0x5F59125E)
+F (.\Piano.c)(0x5FC8BF0C)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\piano.o --omf_browse .\piano.crf --depend .\piano.d)
+I (Piano.h)(0x5FC72F29)
+I (..//tm4c123gh6pm.h)(0x5F59125E)
+F (.\texas.o)(0x5F59126E)()
